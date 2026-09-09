@@ -1,0 +1,208 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "LEAD-.####",
+ "creation": "2026-09-08 13:25:27.237001",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lead_information_section",
+  "lead_name",
+  "lead_owner",
+  "status",
+  "column_break_tggf",
+  "source",
+  "lead_type",
+  "lead_rating",
+  "contact_information_section",
+  "first_name",
+  "last_name",
+  "email",
+  "column_break_z9c2",
+  "mobile_number",
+  "phone",
+  "website",
+  "company_information_section",
+  "company_name",
+  "designation",
+  "column_break_zlel",
+  "company_size",
+  "annual_revenue",
+  "follow_up_section",
+  "next_follow_up_date",
+  "follow_up_by",
+  "follow_up_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "lead_information_section",
+   "fieldtype": "Section Break",
+   "label": "Lead Information"
+  },
+  {
+   "fieldname": "lead_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lead Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lead_owner",
+   "fieldtype": "Link",
+   "label": "Lead Owner",
+   "options": "User"
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nContacted\nQualified\nUnqualified\nLost\nConverted",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tggf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Select",
+   "label": "Source",
+   "options": "Website\nGoogle\nFacebook\nInstagram\nLinkedIn\nReferral\nCold Call\nEmail Campaign\nAdvertisement\nOther"
+  },
+  {
+   "fieldname": "lead_type",
+   "fieldtype": "Select",
+   "label": "Lead Type",
+   "options": "Individual\nCompany"
+  },
+  {
+   "fieldname": "lead_rating",
+   "fieldtype": "Select",
+   "label": "Lead Rating",
+   "options": "Hot\nWarm\nCold"
+  },
+  {
+   "fieldname": "contact_information_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_z9c2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile number"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "company_information_section",
+   "fieldtype": "Section Break",
+   "label": "Company information"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "column_break_zlel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_size",
+   "fieldtype": "Select",
+   "label": "Company Size",
+   "options": "1-10\n11-50\n51-200\n201-500\n500+"
+  },
+  {
+   "fieldname": "annual_revenue",
+   "fieldtype": "Currency",
+   "label": "Annual Revenue"
+  },
+  {
+   "fieldname": "follow_up_section",
+   "fieldtype": "Section Break",
+   "label": "Follow up"
+  },
+  {
+   "fieldname": "next_follow_up_date",
+   "fieldtype": "Date",
+   "label": "Next Follow Up Date"
+  },
+  {
+   "fieldname": "follow_up_by",
+   "fieldtype": "Link",
+   "label": "Follow Up By",
+   "options": "User"
+  },
+  {
+   "fieldname": "follow_up_notes",
+   "fieldtype": "Small Text",
+   "label": "Follow Up Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-09 12:34:27.919159",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Lead",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "lead_name",
+ "track_changes": 1
+}

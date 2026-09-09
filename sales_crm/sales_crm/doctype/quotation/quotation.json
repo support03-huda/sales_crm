@@ -1,0 +1,277 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "QTN-.####",
+ "creation": "2026-09-09 09:22:27.364438",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_information_section",
+  "customer_type",
+  "lead",
+  "contacts",
+  "column_break_05rz",
+  "organization",
+  "customer_email",
+  "customer_phone",
+  "quotation_details_section",
+  "quotation_date",
+  "valid_till",
+  "opportunity",
+  "column_break_xtmv",
+  "sales_person",
+  "status",
+  "section_break_qsvw",
+  "currency",
+  "order_type",
+  "section_break_cqzz",
+  "quotation_items",
+  "pricing_section",
+  "total_quantity",
+  "subtotal",
+  "discount_",
+  "discount_amount",
+  "column_break_e1jz",
+  "tax_",
+  "tax_amount",
+  "grand_total",
+  "rounded_total",
+  "section_break_fdzb",
+  "amount_in_words",
+  "terms_and_conditions_tab",
+  "payment_schedule",
+  "terms",
+  "term_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Select",
+   "label": "Customer Type",
+   "options": "Lead\nContact\nOrganization\nOthers"
+  },
+  {
+   "fieldname": "lead",
+   "fieldtype": "Link",
+   "label": "Lead",
+   "options": "Lead"
+  },
+  {
+   "fieldname": "contacts",
+   "fieldtype": "Link",
+   "label": "Contacts",
+   "options": "Contacts"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Link",
+   "label": "Organization",
+   "options": "Organization"
+  },
+  {
+   "fieldname": "customer_information_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Information"
+  },
+  {
+   "fieldname": "customer_email",
+   "fieldtype": "Data",
+   "label": "Customer Email"
+  },
+  {
+   "fieldname": "customer_phone",
+   "fieldtype": "Data",
+   "label": "Customer Phone"
+  },
+  {
+   "fieldname": "quotation_details_section",
+   "fieldtype": "Section Break",
+   "label": "Quotation Details"
+  },
+  {
+   "fieldname": "quotation_date",
+   "fieldtype": "Date",
+   "label": "Quotation Date"
+  },
+  {
+   "fieldname": "valid_till",
+   "fieldtype": "Date",
+   "label": "Valid Till"
+  },
+  {
+   "fieldname": "opportunity",
+   "fieldtype": "Link",
+   "label": "Opportunity",
+   "options": "Opportunity"
+  },
+  {
+   "fieldname": "sales_person",
+   "fieldtype": "Link",
+   "label": "Sales Person ",
+   "options": "User"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSent\nUnder Review\nAccepted\nRejected\nExpired\nCancelled"
+  },
+  {
+   "fieldname": "column_break_05rz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xtmv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cqzz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quotation_items",
+   "fieldtype": "Table",
+   "label": "Quotation Items",
+   "options": "Quotation Item"
+  },
+  {
+   "fieldname": "section_break_qsvw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "INR",
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "label": "Currency",
+   "options": "INR\nUSD\nEUR"
+  },
+  {
+   "default": "Sales",
+   "fieldname": "order_type",
+   "fieldtype": "Select",
+   "label": "Order Type",
+   "options": "Sales\nMaintenance\nOther"
+  },
+  {
+   "fieldname": "pricing_section",
+   "fieldtype": "Section Break",
+   "label": "Pricing"
+  },
+  {
+   "fieldname": "total_quantity",
+   "fieldtype": "Float",
+   "label": "Total Quantity",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "subtotal",
+   "fieldtype": "Currency",
+   "label": "Subtotal",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "discount_",
+   "fieldtype": "Percent",
+   "label": "Discount %"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Currency",
+   "label": "Discount Amount",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "tax_",
+   "fieldtype": "Percent",
+   "label": "Tax %"
+  },
+  {
+   "fieldname": "tax_amount",
+   "fieldtype": "Currency",
+   "label": "Tax Amount",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rounded_total",
+   "fieldtype": "Currency",
+   "label": "Rounded Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amount_in_words",
+   "fieldtype": "Small Text",
+   "label": "Amount in words"
+  },
+  {
+   "fieldname": "column_break_e1jz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "terms_and_conditions_tab",
+   "fieldtype": "Tab Break",
+   "label": "Terms and Conditions"
+  },
+  {
+   "fieldname": "payment_schedule",
+   "fieldtype": "Table",
+   "label": "Payment Schedule",
+   "options": "Payment Schedule"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Link",
+   "label": "Terms",
+   "options": "Terms and Condition"
+  },
+  {
+   "fieldname": "term_details",
+   "fieldtype": "Text Editor",
+   "label": "Term Details"
+  },
+  {
+   "fieldname": "section_break_fdzb",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-09 11:02:49.347992",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
