@@ -10,7 +10,6 @@
   "first_name",
   "last_name",
   "email",
-  "mobile_no",
   "phone",
   "full_name",
   "column_break_4ehb",
@@ -34,11 +33,6 @@
    "fieldname": "email",
    "fieldtype": "Data",
    "label": "Email"
-  },
-  {
-   "fieldname": "mobile_no",
-   "fieldtype": "Data",
-   "label": "Mobile No"
   },
   {
    "fieldname": "phone",
@@ -80,7 +74,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 12:35:11.344424",
+ "modified": "2026-09-09 13:54:07.506902",
  "modified_by": "Administrator",
  "module": "Sales CRM",
  "name": "Contacts",

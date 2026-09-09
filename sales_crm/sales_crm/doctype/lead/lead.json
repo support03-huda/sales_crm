@@ -21,7 +21,6 @@
   "email",
   "column_break_z9c2",
   "mobile_number",
-  "phone",
   "website",
   "company_information_section",
   "company_name",
@@ -113,11 +112,6 @@
    "label": "Mobile number"
   },
   {
-   "fieldname": "phone",
-   "fieldtype": "Data",
-   "label": "Phone"
-  },
-  {
    "fieldname": "website",
    "fieldtype": "Data",
    "label": "Website"
@@ -177,7 +171,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 12:34:27.919159",
+ "modified": "2026-09-09 13:54:28.678819",
  "modified_by": "Administrator",
  "module": "Sales CRM",
  "name": "Lead",
