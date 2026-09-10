@@ -7,7 +7,9 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "company",
   "customer_information_section",
+  "title",
   "customer_type",
   "lead",
   "contacts",
@@ -243,12 +245,23 @@
   {
    "fieldname": "section_break_fdzb",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title "
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company ",
+   "options": "Company"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 11:02:49.347992",
+ "modified": "2026-09-10 10:45:03.374934",
  "modified_by": "Administrator",
  "module": "Sales CRM",
  "name": "Quotation",
@@ -270,8 +283,10 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "title",
  "track_changes": 1
 }

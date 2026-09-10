@@ -1,0 +1,57 @@
+{
+ "app": "sales_crm",
+ "charts": [
+  {
+   "chart_name": "Deals by Status",
+   "label": "Deals by Status"
+  },
+  {
+   "chart_name": "Leads by Status",
+   "label": "Leads by Status"
+  },
+  {
+   "chart_name": "Opportunity Pipeline",
+   "label": "Opportunity Pipeline"
+  }
+ ],
+ "content": "[{\"id\":\"RnCMBgqgD4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales CRM</b></span>\",\"col\":12}},{\"id\":\"yBYR9NHEU-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Deals\",\"col\":4}},{\"id\":\"0fTmRK9SIn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Follow Ups\",\"col\":4}},{\"id\":\"FzbmJohpTk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Leads\",\"col\":4}},{\"id\":\"MPvxj2DIJb\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Deals by Status\",\"col\":6}},{\"id\":\"Hn3lp7auo7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Leads by Status\",\"col\":6}},{\"id\":\"V1PiLv0Zpf\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Opportunity Pipeline\",\"col\":12}}]",
+ "creation": "2026-09-09 10:00:00",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "users",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Sales CRM",
+ "links": [],
+ "modified": "2026-09-10 10:15:38.862466",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Sales CRM",
+ "number_cards": [
+  {
+   "label": "Total Deals",
+   "number_card_name": "Total Deals"
+  },
+  {
+   "label": "Pending Follow Ups",
+   "number_card_name": "Pending Follow Ups"
+  },
+  {
+   "label": "Total Leads",
+   "number_card_name": "Total Leads"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 10.0,
+ "shortcuts": [],
+ "title": "Sales CRM",
+ "type": "Workspace"
+}
